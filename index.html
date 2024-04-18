@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
+
+      <!-- Title of the webpage -->
     <title>My Calculator Project</title>
+
+     
+    <!-- Linking external CSS file -->
     <link rel="stylesheet" href="style.css">   
 </head>
 <body>
+    
+    <!-- Calculator container -->
     <div id ="calculator">
         <input id ="calDisplay" readonly>
+        
+        <!-- Keys container -->        
             <div id="keys">
                 
+                <!-- Number and operator buttons with onclick events -->
+
                 <button onclick="appendDisplay('+')" class="operator-btn">+</button>
                 <button onclick="appendDisplay('7')">7</button>
                 <button onclick="appendDisplay('8')">8</button>
@@ -30,7 +40,7 @@
                 <button onclick="calCalculate()">=</button>
                 <button onclick="appendDisplay('%')" class="operator-btn">%</button>
                 <button onclick="appendDisplay('&#8730')" class="operator-btn">&#8730</button>
-                <button onclick="appendDisplay()" class="operator-btn">DEL</button>
+                <button onclick="appendDisplay('DEL')" class="operator-btn">DEL</button>
                 <button onclick="clearDisplay()" class="operator-btn">C</button>
                 
         
@@ -42,5 +52,7 @@
 
 
 </body>
+
+<!-- Linking external JavaScript file -->
 <script src="script.js"></script>
 </html>
