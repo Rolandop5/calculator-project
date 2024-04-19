@@ -9,6 +9,7 @@ https://stackoverflow.com
 https://www.outsystems.com/forums
 https://www.w3schools.com
 https://www.geeksforgeeks.org
+https://www.figma.com (used for the wireframe layout)
 
 CSS
  
@@ -16,7 +17,7 @@ CSS
  https://cssbuttons.app
  https://getcssscan.com/css-box-shadow-examples
  https://www.realtimecolors.com/
-
+https://www.figma.com (used for the wireframe layout)
 
  JAVA SCRIPT
 
@@ -24,5 +25,6 @@ CSS
  https://stackoverflow.com 
  https://www.w3schools.com
  https://developer.mozilla.org
+ https://javascript.info/object-basics
 
 
